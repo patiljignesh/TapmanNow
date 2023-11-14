@@ -44,6 +44,16 @@ Create a weather app
 - Declined:
     - Notice for user to enable permission for weather app to function
     - Notice should include the direction on how to enable from settings
+- Able to change Language
+- Able to switch between Dark & Light mode
 
 ### After Setup
-- 
+- If the user's permission is still Approved:
+    - User's current location weather data to be populated
+    - User able to add other locations 
+    - User able to see 5 day forecast per location
+- If it is Declined:
+    - Notice for user to enable permission for weather app to function
+    - Notice should include the direction on how to enable from settings
+- Able to change Language
+- Able to switch between Dark & Light mode
