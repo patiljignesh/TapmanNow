@@ -12,4 +12,9 @@
 - [Open Weather Map](https://openweathermap.org)
 
 ## Checklist
-
+[ ] Project setup
+[ ] Git Setup
+[ ] Base Test Setup
+[ ] CI/CD Setup
+[ ] Models Setup
+[ ] Network layer
