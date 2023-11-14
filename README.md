@@ -18,8 +18,8 @@ Create a weather app
 ## How to Build
 
 ## Checklist
-- [ ] Project setup
-- [ ] Git Setup
+- [x] Project setup
+- [x] Git Setup
 - [ ] Base Test Setup
 - [ ] CI/CD Setup
 - [ ] Models Setup
@@ -35,4 +35,15 @@ Create a weather app
 
 ## Steps/ Flow of the app
 
-1. 
+### Initial Setup
+- User location permission
+- Approved:
+    - User's current location weather data to be populated
+    - User able to add other locations 
+    - User able to see 5 day forecast per location
+- Declined:
+    - Notice for user to enable permission for weather app to function
+    - Notice should include the direction on how to enable from settings
+
+### After Setup
+- 
