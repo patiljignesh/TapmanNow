@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		010D84AF2B0AB42A009346D0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010D84AE2B0AB42A009346D0 /* HomeViewController.swift */; };
+		010D84AF2B0AB42A009346D0 /* HomeCityListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010D84AE2B0AB42A009346D0 /* HomeCityListTableViewController.swift */; };
+		010D84B12B0ABBF3009346D0 /* AddCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010D84B02B0ABBF3009346D0 /* AddCityViewController.swift */; };
 		01BBA40B2B041FC900058250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBA40A2B041FC900058250 /* AppDelegate.swift */; };
 		01BBA40D2B041FC900058250 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBA40C2B041FC900058250 /* SceneDelegate.swift */; };
 		01BBA4122B041FC900058250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BBA4102B041FC900058250 /* Main.storyboard */; };
@@ -16,7 +17,7 @@
 		01BBA4222B041FCC00058250 /* TapmanNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBA4212B041FCC00058250 /* TapmanNowTests.swift */; };
 		01BBA42C2B041FCC00058250 /* TapmanNowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBA42B2B041FCC00058250 /* TapmanNowUITests.swift */; };
 		01BBA42E2B041FCC00058250 /* TapmanNowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBA42D2B041FCC00058250 /* TapmanNowUITestsLaunchTests.swift */; };
-		01BBA4442B04224500058250 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBA4432B04224500058250 /* HomeViewModel.swift */; };
+		01BBA4442B04224500058250 /* HomeCityListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBA4432B04224500058250 /* HomeCityListViewModel.swift */; };
 		01EBF7872B042DCF0019C9EA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 01EBF7862B042DCF0019C9EA /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		010D84AE2B0AB42A009346D0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		010D84AE2B0AB42A009346D0 /* HomeCityListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCityListTableViewController.swift; sourceTree = "<group>"; };
+		010D84B02B0ABBF3009346D0 /* AddCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCityViewController.swift; sourceTree = "<group>"; };
 		01BBA4072B041FC900058250 /* TapmanNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapmanNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01BBA40A2B041FC900058250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01BBA40C2B041FC900058250 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +53,7 @@
 		01BBA4272B041FCC00058250 /* TapmanNowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapmanNowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01BBA42B2B041FCC00058250 /* TapmanNowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapmanNowUITests.swift; sourceTree = "<group>"; };
 		01BBA42D2B041FCC00058250 /* TapmanNowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapmanNowUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		01BBA4432B04224500058250 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		01BBA4432B04224500058250 /* HomeCityListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCityListViewModel.swift; sourceTree = "<group>"; };
 		01EBF7862B042DCF0019C9EA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,7 +156,7 @@
 		01BBA43C2B0421C400058250 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				01BBA4432B04224500058250 /* HomeViewModel.swift */,
+				01BBA4432B04224500058250 /* HomeCityListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -162,7 +164,8 @@
 		01BBA43D2B0421CA00058250 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				010D84AE2B0AB42A009346D0 /* HomeViewController.swift */,
+				010D84AE2B0AB42A009346D0 /* HomeCityListTableViewController.swift */,
+				010D84B02B0ABBF3009346D0 /* AddCityViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -358,10 +361,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010D84B12B0ABBF3009346D0 /* AddCityViewController.swift in Sources */,
 				01BBA40B2B041FC900058250 /* AppDelegate.swift in Sources */,
-				01BBA4442B04224500058250 /* HomeViewModel.swift in Sources */,
+				01BBA4442B04224500058250 /* HomeCityListViewModel.swift in Sources */,
 				01BBA40D2B041FC900058250 /* SceneDelegate.swift in Sources */,
-				010D84AF2B0AB42A009346D0 /* HomeViewController.swift in Sources */,
+				010D84AF2B0AB42A009346D0 /* HomeCityListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

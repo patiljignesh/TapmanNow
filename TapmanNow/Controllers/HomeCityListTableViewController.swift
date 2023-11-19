@@ -21,6 +21,8 @@ class HomeCityListTableViewController: UITableViewController {
         //  - Ask for permission
         //  - retrive current location coordinates
         // Make web service call using current location
-        //
+        
+        
+        self.navigationController?.navigationBar.prefersLargeTitles = true
     }
 }
