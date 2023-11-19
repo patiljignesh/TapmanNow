@@ -24,5 +24,17 @@ class HomeCityListTableViewController: UITableViewController {
         
         
         self.navigationController?.navigationBar.prefersLargeTitles = true
+        
+        if #available(iOS 13.0, *) {
+            let appearance = UINavigationBarAppearance()
+            appearance.configureWithOpaqueBackground()
+            appearance.backgroundColor = UIColor(displayP3Red: 71/255, green: 171/255, blue: 47/255, alpha: 1.0)
+            
+            // Apply appearance to standard and scroll edge appearance
+            navigationController?.navigationBar.standardAppearance = appearance
+            navigationController?.navigationBar.scrollEdgeAppearance = appearance
+        }
+
+        
     }
 }

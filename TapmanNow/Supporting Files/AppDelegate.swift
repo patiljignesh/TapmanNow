@@ -14,6 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //Sunny: Hex: 47AB2F : rgba(71, 171, 47, 1)
+        //CLOUDY: Hex: 54717A : rgba(84, 113, 122, 1)
+        // RIANY: Hex : 57575D : rgba(87, 87, 93, 1)
+        UIBarButtonItem.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().barTintColor = UIColor(displayP3Red: 71/255, green: 171/255, blue: 47/255, alpha: 1.0)
+        
         return true
     }
 
